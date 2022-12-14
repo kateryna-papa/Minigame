@@ -1,0 +1,29 @@
+body {
+    background: url("fon.jpeg");
+}
+
+.grid {
+    width: 606px;
+    height: 606px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+}
+
+.mole {
+    background-image: url("hare.png");
+    background-size: cover;
+}
+
+.header {
+    text-align: center;
+}
+
+.grid {
+    margin-right: auto;
+    margin-left: auto;
+}
